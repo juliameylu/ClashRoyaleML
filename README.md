@@ -24,3 +24,8 @@ hf download Grandediw/clash-royale-battle \
   --repo-type dataset \
   --local-dir data/
 ```
+
+Convert CSV to Parquet
+```bash
+python scripts/convert_to_parquet.py
+```
